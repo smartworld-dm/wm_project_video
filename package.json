@@ -1,7 +1,7 @@
 {
-  "name": "ws-avc-player",
-  "version": "0.1.9",
-  "main": "lib/WSAvcPlayer.js",
+  "name": "Video socket.io",
+  "version": "0.2.0",
+  "main": "example/index.js",
   "files": [
     "lib/",
     "AUTHORS",
@@ -15,7 +15,8 @@
     "build:dev": "webpack",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install && grunt build"
   },
   "repository": {
     "type": "git",
@@ -46,5 +47,8 @@
     "uws": "^9.14.0",
     "webpack": "^3.8.1",
     "webpack-bundle-analyzer": "^2.9.1"
+  },
+  "engines": {
+    "node": "8.10.0"
   }
 }
