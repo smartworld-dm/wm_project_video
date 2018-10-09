@@ -1,5 +1,5 @@
 {
-  "name": "Video socket.io",
+  "name": "Video socketIO",
   "version": "0.2.0",
   "main": "example/index.js",
   "files": [
