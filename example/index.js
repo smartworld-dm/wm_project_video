@@ -15,5 +15,5 @@ app.use(express.static(path.resolve(__dirname, '../lib_new')))
 
 const server = http.createServer(app)
 
-server.listen(3000)
+server.listen(port)
 console.log('Server is running on 3000')
